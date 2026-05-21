@@ -120,11 +120,21 @@ cat nmap_scan_results.txt
 
 ---
 
-## Screenshots
+## Results
 
-Project screenshots and scan outputs are included inside the Screenshots folder.
+![](../Images/nmap_network_scan_result_1.png)
 
----
+![](../Images/nmap_network_scan_result_2.png)
+
+![](../Images/nmap_network_scan_result_3.png)
+
+![](../Images/nmap_network_scan_result_4.png)
+
+![](../Images/nmap_network_scan_result_5.png)
+
+![](../Images/nmap_network_scan_result_6.png)
+
+![](../Images/nmap_network_scan_result_7.png)
 
 ## Learning Outcome
 
@@ -142,7 +152,7 @@ OIBSIP/
 ├── Task1_NetworkScan_Nmap/
 │   ├── README.md
 │   ├── TirthkumarHarishbhaiPatel_Task1_NetworkScanReport.docx
-│   └── Results
+
 
 ```
 
