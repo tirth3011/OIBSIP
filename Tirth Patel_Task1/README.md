@@ -1,4 +1,4 @@
-# Task 1 - Network Scan Report Using Nmap
+# Task 1 - Basic Network Scanning Using Nmap
 
 ## Internship Details
 
@@ -10,9 +10,9 @@
 
 ## Project Overview
 
-This project demonstrates practical network scanning and reconnaissance using **Nmap** in **Kali Linux**. The task was performed to understand how network scanning tools work and how cybersecurity professionals identify hosts, services, and open ports in a network.
+This project demonstrates practical network scanning and reconnaissance using Nmap in Kali Linux. The task was performed to understand how network scanning tools work and how cybersecurity professionals identify hosts, services, and open ports in a network.
 
-The implementation includes host discovery, service detection, aggressive scanning, port scanning, and saving scan results.
+The implementation includes host discovery, service detection, aggressive scanning, network discovery, port scanning, and saving scan results.
 
 ---
 
@@ -20,14 +20,14 @@ The implementation includes host discovery, service detection, aggressive scanni
 
 The objective of this project was to:
 
-- Understand working of Nmap
+- Understand Nmap functionality
 - Find system IP address
 - Perform host discovery
 - Scan ports on a target system
 - Detect running services
 - Identify devices available in local network
-- Perform network reconnaissance
-- Save scan outputs into a file
+- Understand network reconnaissance
+- Save scan results into a text file
 
 ---
 
@@ -47,7 +47,7 @@ The objective of this project was to:
 sudo apt install nmap
 ```
 
-### Find IP Address
+### Find System IP Address
 
 ```bash
 ifconfig
@@ -107,63 +107,79 @@ cat nmap_scan_results.txt
 
 ---
 
-## Results
+## Scan Findings
 
-- Successfully verified Nmap installation
-- Identified local system IP address
-- Performed host scanning
-- Performed service detection
-- Identified devices connected in local network
-- Scanned port ranges
-- Saved results into output file
-- Understood practical use of network reconnaissance
+### Target Machine
+
+```
+192.168.1.14
+```
+
+### Result Summary
+
+- Host was active
+- All 1000 scanned TCP ports were filtered
+- No open services were detected
+- Service detection completed successfully
+- Network filtering mechanism prevented responses
+
+### Significance
+
+Filtered ports generally indicate firewall rules or filtering mechanisms blocking responses.
+
+This demonstrates practical network security implementation.
 
 ---
 
-## Results
+## Output Saved
 
-![](../Images/nmap_network_scan_result_1.png)
+```
+nmap_scan_results.txt
+```
 
-![](../Images/nmap_network_scan_result_2.png)
+---
 
-![](../Images/nmap_network_scan_result_3.png)
+## Files Included
 
-![](../Images/nmap_network_scan_result_4.png)
+```
+Tirth Patel_Task1/
+│
+├── README.md
+├── TirthPatel_Task1_NetworkScanReport.docx
+├── nmap_scan_results.txt
+│
+└── Screenshots/
+    ├── scan_result_1.png
+    ├── scan_result_2.png
+    ├── scan_result_3.png
+    ├── scan_result_4.png
+    ├── scan_result_5.png
+    ├── scan_result_6.png
+    └── scan_result_7.png
+```
 
-![](../Images/nmap_network_scan_result_5.png)
-
-![](../Images/nmap_network_scan_result_6.png)
-
-![](../Images/nmap_network_scan_result_7.png)
+---
 
 ## Learning Outcome
 
-This project provided hands-on experience with network scanning concepts and helped understand practical cybersecurity operations using Nmap.
+This task provided practical understanding of:
 
----
-
-## Repository Structure
-
-```
-OIBSIP/
-│
-├── README.md
-│
-├── Task1_NetworkScan_Nmap/
-│   ├── README.md
-│   ├── TirthkumarHarishbhaiPatel_Task1_NetworkScanReport.docx
-
-
-```
+- Network reconnaissance
+- Port scanning
+- Host discovery
+- Service identification
+- Nmap usage in cybersecurity
+- Network security fundamentals
 
 ---
 
 ## Submission Requirements Completed
 
 ✔ GitHub Repository Maintained  
-✔ Project Documentation Added  
-✔ Screenshots Included  
-✔ Practical Demonstration Completed  
+✔ README Documentation Added  
+✔ Nmap Output File Added  
+✔ Report Documentation Added  
+✔ Screenshots Added  
 
 ---
 
