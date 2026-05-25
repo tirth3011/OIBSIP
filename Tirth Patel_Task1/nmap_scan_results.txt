@@ -1,0 +1,8 @@
+# Nmap 7.98 scan initiated Thu May 21 13:44:44 2026 as: /usr/lib/nmap/nmap --privileged -sV -oN nmap_scan_results.txt 192.168.1.14
+Nmap scan report for 192.168.1.14 (192.168.1.14)
+Host is up.
+All 1000 scanned ports on 192.168.1.14 (192.168.1.14) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 21 13:48:13 2026 -- 1 IP address (1 host up) scanned in 208.72 seconds
